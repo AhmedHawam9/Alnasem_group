@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <!-- ? Required meta tags -->
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /> -->
+    <!-- ? Required meta tags -->
+
+    <!-- ? Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/hover-min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/flag-icon.min.css" />
+    <link rel="stylesheet" href="css/img_animation.css" />
+    <link rel="stylesheet" href="css/starability-all.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- ? Bootstrap CSS -->
+
+    <!-- ? Title -->
+    <title>مؤسسة النسيم</title>
+    <!-- ? Title -->
+
+    <!-- ? Favicon -->
+    <link rel="icon" href="media/image/logo.svg" type="image">
+    <!-- ? Favicon -->
+
+    <!-- ? JavaScript -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/fontawesome.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script>
+        console.log('%c <== 7w7w++ ==>  ', "background: #FFD100; color: #3A3838; padding-left:10px; border-radius: 20px; font-weight: bold;");
+    </script>
+    <!-- ? JavaScript -->
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+    <!-- =========== ? NavBar =========== -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <!-- ? Container -->
+        <div class="container">
+            <img src="media/image/logo.svg" class="ml-5 logo" alt="logo">
+            <!-- ? button toggler menu -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- ? button toggler menu -->
+
+            <!-- ? Item Nav -->
+            <div class="collapse mt-1 py-2 navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-4">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="index.html">الرئيسية</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="aboutUs.html">من نحن</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="Contact.html">اتصل بنا</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="News.html">الاخبار</a>
+                    </li>
+                    <li class="nav-item mx-3 dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            خدامتنا
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="educationservice.html">خدمات تعليمية</a>
+                            <a class="dropdown-item" href="estateservice.html">خدمات عقارية</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="mr-auto">
+                    <button class="btn loginbtn hvr-bob" onclick="window.open('login.html', '_self')">تسجيل
+                        الدخول</button>
+                </div>
+                <div class="lang mx-3 hvr-bounce-in">
+                    <a href="#">EN</a>
+                </div>
+
+            </div>
+            <!-- ? Item Nav -->
+        </div>
+        <!-- ? Container -->
+
+    </nav>
+    <!-- =========== ? NavBar =========== -->
+
+    <!-- =========== ? Login =========== -->
+    <section class="login">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 p-0">
+                    <img src="media/image/loginimg.jpg" alt="loginimg">
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <h4>مرحبا بك</h4>
+                    <p>من فضلك قم بإدخال البريد الالكتروني وكلمه السر الخاصه بك
+                        لتصبح جزءا من مؤسسه النسيم</p>
+                    <label for="name">الاسم كاملا</label>
+                    <input type="text" class="form-control">
+                    <label for="email">البريد الألكتروني</label>
+                    <input type="email" class="form-control">
+                    <label for="password">كلمةالمرور</label>
+                    <button type="button" id="btnToggle" class="toggle">
+                        <i id="eyeIcon" class="fa fa-eye"></i>
+                    </button>
+                    <input type="password" id="txtPassword" name="txtPassword" class="form-control">
+                    <button class="btn loginbtn hvr-bob" onclick="window.open('welcome.html', '_self')">تسجيل الدخول</button>
+                    <h5>أو</h5>
+                    <button class="btn loginface hvr-bob">سجل باستخدام فيسبوك<i class="fab fa-facebook-f mx-3"></i></button>
+                    <button class="btn logingoogle hvr-bob">سجل باستخدام جوجل<i class="fab fa-google mx-3"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========== ? Login =========== -->
+
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+    <script type="text/javascript" src="js/slick.min.js"></script>
+
+    <!-- ============ Map ============ -->
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIwzALxUPNbatRBj3Xi1Uhp0fFzwWNBkE&callback=initMap&libraries=&v=weekly"
+        async></script>
+
+    <script>
+        function initMap() {
+            // Styles a map in night mode.
+            const map = new google.maps.Map(document.getElementById("map"), {
+                center: { lat: 31.0272314, lng: 31.3712216 },
+                zoom: 19,
+                disableDefaultUI: true,
+                styles: [
+                    { elementType: "geometry", stylers: [{ color: "#242f3e" }] },
+                    { elementType: "labels.text.stroke", stylers: [{ color: "#242f3e" }] },
+                    { elementType: "labels.text.fill", stylers: [{ color: "#746855" }] },
+                    {
+                        featureType: "administrative.locality",
+                        elementType: "labels.text.fill",
+                        stylers: [{ color: "#d59563" }],
+                    },
+                    {
+                        featureType: "poi",
+                        elementType: "labels.text.fill",
+                        stylers: [{ color: "#d59563" }],
+                    },
+                    {
+                        featureType: "poi.park",
+                        elementType: "geometry",
+                        stylers: [{ color: "#263c3f" }],
+                    },
+                    {
+                        featureType: "poi.park",
+                        elementType: "labels.text.fill",
+                        stylers: [{ color: "#6b9a76" }],
+                    },
+                    {
+                        featureType: "road",
+                        elementType: "geometry",
+                        stylers: [{ color: "#38414e" }],
+                    },
+                    {
+                        featureType: "road",
+                        elementType: "geometry.stroke",
+                        stylers: [{ color: "#212a37" }],
+                    },
+                    {
+                        featureType: "road",
+                        elementType: "labels.text.fill",
+                        stylers: [{ color: "#9ca5b3" }],
+                    },
+                    {
+                        featureType: "road.highway",
+                        elementType: "geometry",
+                        stylers: [{ color: "#746855" }],
+                    },
+                    {
+                        featureType: "road.highway",
+                        elementType: "geometry.stroke",
+                        stylers: [{ color: "#1f2835" }],
+                    },
+                    {
+                        featureType: "road.highway",
+                        elementType: "labels.text.fill",
+                        stylers: [{ color: "#f3d19c" }],
+                    },
+                    {
+                        featureType: "transit",
+                        elementType: "geometry",
+                        stylers: [{ color: "#2f3948" }],
+                    },
+                    {
+                        featureType: "transit.station",
+                        elementType: "labels.text.fill",
+                        stylers: [{ color: "#d59563" }],
+                    },
+                    {
+                        featureType: "water",
+                        elementType: "geometry",
+                        stylers: [{ color: "#17263c" }],
+                    },
+                    {
+                        featureType: "water",
+                        elementType: "labels.text.fill",
+                        stylers: [{ color: "#515c6d" }],
+                    },
+                    {
+                        featureType: "water",
+                        elementType: "labels.text.stroke",
+                        stylers: [{ color: "#17263c" }],
+                    },
+                ],
+            });
+        }
+    </script>
+    <!-- ============ Map ============ -->
+
+
+    <!-- =========== Active navbar Link in multi pages ============= -->
+    <script>
+        const currentLocation = location.href;
+        const menuItem = document.querySelectorAll('.navbar-collapse a');
+        const menuLength = menuItem.length
+        for (let i = 0; i < menuLength; i++) {
+            if (menuItem[i].href === currentLocation) {
+                menuItem[i].className = "active"
+            }
+        }
+    </script>
+    <!-- =========== Active navbar Link in multi pages ============= -->
+
+
+    <!-- ============== carousel partenrs ============== -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 3,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+    <!-- ============== carousel partenrs ============== -->
+
+    <!-- ============== carousel our team ============== -->
+    <script>
+        var swiper = new Swiper('.swiper-containerteam', {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 3,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+    <!-- ============== carousel our team ============== -->
+
+    <!-- ============== Eye slash password ============== -->
+    <script>
+        let passwordInput = document.getElementById('txtPassword'),
+            toggle = document.getElementById('btnToggle'),
+            icon = document.getElementById('eyeIcon');
+
+        function togglePassword() {
+            if (passwordInput.type === 'password') {
+                passwordInput.type = 'text';
+                // icon.classList.add("fa-eye-slash");
+                toggle.innerHTML = '<i class="fas fa-eye-slash"></i>';
+            } else {
+                passwordInput.type = 'password';
+                // icon.classList.remove("fa-eye-slash");
+                toggle.innerHTML = '<i class="fas fa-eye"></i>';
+            }
+        }
+
+        function checkInput() {
+        }
+
+        toggle.addEventListener('click', togglePassword, false);
+        passwordInput.addEventListener('keyup', checkInput, false);
+    </script>
+    <!-- ============== Eye slash password ============== -->
+
+</body>
+
+</html>
