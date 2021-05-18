@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <!-- ? Required meta tags -->
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /> -->
+    <!-- ? Required meta tags -->
+
+    <!-- ? Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/hover-min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/flag-icon.min.css" />
+    <link rel="stylesheet" href="css/img_animation.css" />
+    <link rel="stylesheet" href="css/starability-all.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- ? Bootstrap CSS -->
+
+    <!-- ? Title -->
+    <title>مؤسسة النسيم</title>
+    <!-- ? Title -->
+
+    <!-- ? Favicon -->
+    <link rel="icon" href="media/image/logo.svg" type="image">
+    <!-- ? Favicon -->
+
+    <!-- ? JavaScript -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/fontawesome.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script>
+        console.log('%c <== 7w7w++ ==>  ', "background: #FFD100; color: #3A3838; padding-left:10px; border-radius: 20px; font-weight: bold;");
+    </script>
+    <!-- ? JavaScript -->
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+    <!-- =========== ? NavBar =========== -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <!-- ? Container -->
+        <div class="container">
+            <img src="media/image/logo.svg" class="ml-5 logo" alt="logo">
+            <!-- ? button toggler menu -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- ? button toggler menu -->
+
+            <!-- ? Item Nav -->
+            <div class="collapse mt-1 py-2 navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-4">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="index.html">الرئيسية</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="aboutUs.html">من نحن</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="Contact.html">اتصل بنا</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="News.html">الاخبار</a>
+                    </li>
+                    <li class="nav-item mx-3 dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            خدامتنا
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="educationservice.html">خدمات تعليمية</a>
+                            <a class="dropdown-item" href="estateservice.html">خدمات عقارية</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="mr-auto">
+                    <button class="btn loginbtn hvr-bob" onclick="window.open('login.html', '_self')">تسجيل
+                        الدخول</button>
+                </div>
+                <div class="lang mx-3 hvr-bounce-in">
+                    <a href="#">EN</a>
+                </div>
+
+            </div>
+            <!-- ? Item Nav -->
+        </div>
+        <!-- ? Container -->
+
+    </nav>
+    <!-- =========== ? NavBar =========== -->
+
+    <!-- ============ Header search estate ============ -->
+    <section class="search-estate">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2>دلوقتي تقدر تحصل على شقه
+                        الاحلام معانا بكل سهوله</h2>
+                    <p>مؤسسه النسيم هدفها الأول هو رفاهيه المواطن وتوفير الخدمات الاوليه له فهى توفر له اختيار المنزل
+                        المناسب وأيضا اختيار التعليم المناسب وتسهيل عمليه التقديم والحصول على جميع االمتيازات
+                    </p>
+                </div>
+            </div>
+            <div class="row search">
+                <div class="col-lg-2 col-md-4">
+                    <label for="">البلده</label>
+                    <select name="city" id="city" class="form-control">
+                        <option value="0" hidden selected>اختر البلده</option>
+                        <option value="1">المنصورة</option>
+                        <option value="2">القاهرة</option>
+                    </select>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <label for="">نوع الشقه</label>
+                    <select name="city" id="city" class="form-control">
+                        <option value="0" hidden selected>نوع الشقه</option>
+                        <option value="1">شقة</option>
+                        <option value="2">دوبلكس</option>
+                    </select>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <label for="">غرف النوم</label>
+                    <select name="city" id="city" class="form-control">
+                        <option value="0" hidden selected>عدد غرف النوم</option>
+                        <option value="1">2</option>
+                        <option value="2">3</option>
+                    </select>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <label for="">معدل السعر</label>
+                    <fieldset class="filter-price">
+                        <div class="price-wrap">
+                            <div class="price-wrap-1">
+                                <input id="one">
+                                <label for="one">ليرة</label>
+                            </div>
+                            <div class="price-wrap_line">-</div>
+                            <div class="price-wrap-2">
+                                <input id="two">
+                                <label for="two">ليرة</label>
+                            </div>
+                        </div>
+                        <div class="price-field">
+                            <input type="range" min="100" max="500" value="100" id="lower">
+                            <input type="range" min="100" max="500" value="500" id="upper">
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <label for="">&nbsp;</label>
+                    <a class="btn">ابحث الان</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============ Header search estate ============ -->
+
+    <!-- ============ estate ============ -->
+    <section class="estate">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-12 filter">
+                    <h4>فلتر البحث</h4>
+                    <!--  -->
+                    <label for="">البلده</label>
+                    <select name="city" id="city" class="form-control">
+                        <option value="0" hidden selected>كل المناطق</option>
+                        <option value="1">المنصورة</option>
+                        <option value="2">القاهرة</option>
+                    </select>
+                    <!--  -->
+                    <!--  -->
+                    <label for="">معدل السعر</label>
+                    <fieldset class="filter-price">
+                        <div class="price-wrap">
+                            <div class="price-wrap-1">
+                                <input id="one">
+                                <label for="one">ليرة</label>
+                            </div>
+                            <div class="price-wrap_line">-</div>
+                            <div class="price-wrap-2">
+                                <input id="two">
+                                <label for="two">ليرة</label>
+                            </div>
+                        </div>
+                        <div class="price-field">
+                            <input type="range" min="100" max="500" value="100" id="lower">
+                            <input type="range" min="100" max="500" value="500" id="upper">
+                        </div>
+                    </fieldset>
+                    <!--  -->
+                </div>
+                <div class="col-lg-3 col-md-12">
+                    <div class="col-sm-5"></div>
+                    <div class="col-sm-5"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============ estate ============ -->
+
+    <!-- ? ======= footer =========== -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div
+                    class="col-lg-3 col-md-12 col-sm-12 logo-col d-flex flex-column align-items-sm-center justify-content-sm-center">
+                    <img src="media/image/logo.svg" alt="logo footer">
+                    <p>مؤسسه النسيم للخدمات العقاريه والخدمات التعليمه</p>
+                    <ul class="socialicon mt-2">
+                        <li>
+                            <a href="https://www.facebook.com/ahmedhawam2030"><i class="fab fa-facebook-f icon"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitter.com/AhmedHawam98"><i class="fab fa-twitter icon"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/ahmed-hawam2020"><i
+                                    class="fab fa-linkedin-in icon"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/ahmed_hawam"><i class="fab fa-instagram icon"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="accordion d-lg-flex col-lg-9 col-md-12 col-sm-12" id="accordion" style="margin:0 auto;"> <a
+                        href="#pages" class="text-center mb-3 h3 nav-link p-0 d-block d-lg-none d-xl-none"
+                        data-toggle="collapse">عن الشركة</a>
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-links">
+                        <div class="h3 d-none d-lg-block d-xl-block">عن الشركة</div>
+                        <div class="collapse d-lg-flex" id="pages" data-parent="#accordion">
+                            <ul>
+                                <li> <a class="hvr-float-shadow" href="#">من نحن</a></li>
+                                <li> <a class="hvr-float-shadow" href="#">خدماتنا</a></li>
+                                <li> <a class="hvr-float-shadow" href="#">اتصل بنا</a></li>
+                                <li> <a class="hvr-float-shadow" href="#">أخبارنا</a></li>
+                            </ul>
+                        </div>
+                    </div> <a href="#other" class="text-center mb-3 h3 nav-link p-0 d-block d-lg-none d-xl-none"
+                        data-toggle="collapse">لينكات سريعة</a>
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-links">
+                        <div class="h3 d-none d-lg-block d-xl-block">لينكات سريعة</div>
+                        <div class="collapse d-lg-flex" id="other" data-parent="#accordion">
+                            <ul>
+                                <li> <a class="hvr-float-shadow" href="#">خدمات عقاريه</a></li>
+                                <li> <a class="hvr-float-shadow" href="#">خدمات تعليميه</a></li>
+                                <li> <a class="hvr-float-shadow" href="#">سياسه الخصوصيه</a></li>
+                            </ul>
+                        </div>
+                    </div> <a href="#contact" class="text-center mb-3 h3 nav-link p-0 d-block d-lg-none d-xl-none"
+                        data-toggle="collapse">اتصل بنا</a>
+                    <div class="col-lg-4 col-md-12 col-sm-12 p-0 col-links">
+                        <div class="h3 d-none d-lg-block d-xl-block">اتصل بنا</div>
+                        <div class="collapse d-lg-flex" id="contact" data-parent="#accordion">
+                            <ul>
+                                <li class="hvr-icon-buzz-out"> <img class="hvr-icon" src="media/image/location.svg"
+                                        alt="phone-icon" /> <span>الرياض - شارع الصحابه</span></li>
+                                <li class="hvr-icon-buzz-out"> <img class="hvr-icon" src="media/image/phone.svg"
+                                        alt="mail-icon" /> <span>009665316932613</span></li>
+                                <li class="hvr-icon-buzz-out"> <img class="hvr-icon" src="media/image/email.svg"
+                                        alt="placeholder-icon" /> <span class="email">Naseem@alnaseemgroup.com</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p-0">
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="item col-sm-6">
+                            <p class="my-3">حقوق النشر محفوظه لمؤسسه النسيم@2021</p>
+                        </div>
+                        <div class="item text-center col-sm-6">
+                            <h6>Made with <img class="my-heart" src="media/image/heart.svg" alt="icon heart"> by Crazy
+                                Idea</h6>
+                            <span>Think Out Of The Box</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ? ======= footer =========== -->
+
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+    <script type="text/javascript" src="js/slick.min.js"></script>
+
+    <script>
+        var lowerSlider = document.querySelector('#lower');
+        var upperSlider = document.querySelector('#upper');
+
+        document.querySelector('#two').value = upperSlider.value;
+        document.querySelector('#one').value = lowerSlider.value;
+
+        var lowerVal = parseInt(lowerSlider.value);
+        var upperVal = parseInt(upperSlider.value);
+
+        upperSlider.oninput = function () {
+            lowerVal = parseInt(lowerSlider.value);
+            upperVal = parseInt(upperSlider.value);
+
+            if (upperVal < lowerVal + 4) {
+                lowerSlider.value = upperVal - 4;
+                if (lowerVal == lowerSlider.min) {
+                    upperSlider.value = 4;
+                }
+            }
+            document.querySelector('#two').value = this.value
+        };
+
+        lowerSlider.oninput = function () {
+            lowerVal = parseInt(lowerSlider.value);
+            upperVal = parseInt(upperSlider.value);
+            if (lowerVal > upperVal - 4) {
+                upperSlider.value = lowerVal + 4;
+                if (upperVal == upperSlider.max) {
+                    lowerSlider.value = parseInt(upperSlider.max) - 4;
+                }
+            }
+            document.querySelector('#one').value = this.value
+        };
+    </script>
+
+</body>
+
+</html>
