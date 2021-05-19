@@ -11,12 +11,12 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/hover-min.css" />
-    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- <link rel="stylesheet" href="css/all.min.css" /> -->
     <link rel="stylesheet" href="css/fontawesome.min.css" />
     <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/slick-theme.css" />
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/flag-icon.min.css" />
+    <!-- <link rel="stylesheet" href="css/flag-icon.min.css" /> -->
     <link rel="stylesheet" href="css/img_animation.css" />
     <link rel="stylesheet" href="css/starability-all.css" />
     <link rel="stylesheet" type="text/css" href="css/slick.css" />
@@ -172,38 +172,234 @@
             <div class="row">
                 <div class="col-lg-3 col-md-12 filter">
                     <h4>فلتر البحث</h4>
-                    <!--  -->
+                    <!-- select county -->
                     <label for="">البلده</label>
                     <select name="city" id="city" class="form-control">
                         <option value="0" hidden selected>كل المناطق</option>
                         <option value="1">المنصورة</option>
                         <option value="2">القاهرة</option>
                     </select>
-                    <!--  -->
-                    <!--  -->
+                    <!-- select county -->
+                    <!-- price bar -->
                     <label for="">معدل السعر</label>
                     <fieldset class="filter-price">
                         <div class="price-wrap">
                             <div class="price-wrap-1">
-                                <input id="one">
-                                <label for="one">ليرة</label>
+                                <input id="three">
+                                <label for="three">ليرة</label>
                             </div>
                             <div class="price-wrap_line">-</div>
                             <div class="price-wrap-2">
-                                <input id="two">
-                                <label for="two">ليرة</label>
+                                <input id="four">
+                                <label for="four">ليرة</label>
                             </div>
                         </div>
                         <div class="price-field">
-                            <input type="range" min="100" max="500" value="100" id="lower">
-                            <input type="range" min="100" max="500" value="500" id="upper">
+                            <input type="range" min="100" max="500" value="100" id="lowerfil">
+                            <input type="range" min="100" max="500" value="500" id="upperfil">
                         </div>
                     </fieldset>
-                    <!--  -->
+                    <!-- price bar -->
+                    <!-- select bed room -->
+                    <label for="">غرف النوم</label>
+                    <select name="bed" id="bed" class="form-control">
+                        <option value="0" hidden selected>عدد غرف النوم</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                    </select>
+                    <!-- select bed room -->
+                    <!-- select Flat -->
+                    <label for="">نوع الشقه</label>
+                    <div class="select-bar">
+                        <div class="item">
+                            <input id="flat-0" type="radio" name="flat" value="0" checked="checked" />
+                            <label for="flat-0">شقة</label>
+                        </div>
+                        <div class="item">
+                            <input id="flat-1" type="radio" name="flat" value="1" />
+                            <label for="flat-1">دوبلكس</label>
+                        </div>
+                    </div>
+                    <!-- select Flat -->
+                    <!-- space flat -->
+                    <label for="">المساحه الكليه</label>
+                    <select name="space" id="space" class="form-control">
+                        <option value="0" hidden selected>مساحة الغرفة</option>
+                        <option value="1">من 50 ل 100 متر</option>
+                        <option value="2">من 100 ل 150 متر</option>
+                    </select>
+                    <!-- space flat -->
+                    <!-- select payment -->
+                    <label for="">نوع الشقه</label>
+                    <div class="payment-select-bar select-bar">
+                        <div class="item">
+                            <input id="payment-0" type="radio" name="payment" value="0" checked="checked" />
+                            <label for="payment-0">نقدا</label>
+                        </div>
+                        <div class="item">
+                            <input id="payment-1" type="radio" name="payment" value="1" />
+                            <label for="payment-1">تقسيط</label>
+                        </div>
+                        <div class="item">
+                            <input id="payment-2" type="radio" name="payment" value="1" />
+                            <label for="payment-2">كاش</label>
+                        </div>
+                    </div>
+                    <!-- select Flat -->
+                    <!-- space flat -->
+                    <label for="">الواجهات</label>
+                    <select name="space" id="space" class="form-control">
+                        <option value="0" hidden selected>مساحات خضراء</option>
+                        <option value="1">مساحات خضراء</option>
+                        <option value="2">مساحات خضراء</option>
+                    </select>
+                    <!-- space flat -->
+                    <button type="submit" class="btn">تطبيق</button>
                 </div>
-                <div class="col-lg-3 col-md-12">
-                    <div class="col-sm-5"></div>
-                    <div class="col-sm-5"></div>
+                <div class="col-lg-8 col-md-12 search-result">
+                    <h3>نتائج البحث </h3>
+                    <h5>250 شقه</h5>
+                    <div class="row mt-3">
+                        <!-- ===== room card ===== -->
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img class="card-img-top" src="media/image/estate-search/room2.jpg"
+                                        alt="Card image cap">
+                                    <div class="price">
+                                        <p>20,000 ليره</p>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">فيلا السلام , 4 سرير و 5 حمام و 1 جراج</h5>
+                                    <p class="card-text">حى النخيل , شارع البحر , طرابلس</p>
+                                    <hr>
+                                    <div class="services">
+                                        <img src="media/image/estate-search/bed.svg" alt="">
+                                        <p>4 سرير</p>
+                                    </div>
+                                    <div class="services">
+                                        <img src="media/image/estate-search/bath.svg" alt="">
+                                        <p>5 حمام</p>
+                                    </div>
+                                    <div class="services">
+                                        <img src="media/image/estate-search/garage.svg" alt="">
+                                        <p>1 جراج</p>
+                                    </div>
+                                    <div class="services">
+                                        <img src="media/image/estate-search/space.svg" alt="">
+                                        <p>100 م2</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ===== room card ===== -->
+
+                        <!-- ===== room card ===== -->
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img class="card-img-top" src="media/image/estate-search/room1.jpg"
+                                        alt="Card image cap">
+                                    <div class="price">
+                                        <p>20,000 ليره</p>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">فيلا السلام , 4 سرير و 5 حمام و 1 جراج</h5>
+                                    <p class="card-text">حى النخيل , شارع البحر , طرابلس</p>
+                                    <hr>
+                                    <div class="services">
+                                        <img src="media/image/estate-search/bed.svg" alt="">
+                                        <p>4 سرير</p>
+                                    </div>
+                                    <div class="services">
+                                        <img src="media/image/estate-search/bath.svg" alt="">
+                                        <p>5 حمام</p>
+                                    </div>
+                                    <div class="services">
+                                        <img src="media/image/estate-search/garage.svg" alt="">
+                                        <p>1 جراج</p>
+                                    </div>
+                                    <div class="services">
+                                        <img src="media/image/estate-search/space.svg" alt="">
+                                        <p>100 م2</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ===== room card ===== -->
+
+                        <!-- ===== room card ===== -->
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img class="card-img-top" src="media/image/estate-search/room3.jpg"
+                                        alt="Card image cap">
+                                    <div class="price">
+                                        <p>20,000 ليره</p>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">فيلا السلام , 4 سرير و 5 حمام و 1 جراج</h5>
+                                    <p class="card-text">حى النخيل , شارع البحر , طرابلس</p>
+                                    <hr>
+                                    <div class="services">
+                                        <img src="media/image/estate-search/bed.svg" alt="">
+                                        <p>4 سرير</p>
+                                    </div>
+                                    <div class="services">
+                                        <img src="media/image/estate-search/bath.svg" alt="">
+                                        <p>5 حمام</p>
+                                    </div>
+                                    <div class="services">
+                                        <img src="media/image/estate-search/garage.svg" alt="">
+                                        <p>1 جراج</p>
+                                    </div>
+                                    <div class="services">
+                                        <img src="media/image/estate-search/space.svg" alt="">
+                                        <p>100 م2</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ===== room card ===== -->
+
+                        <!-- ===== room card ===== -->
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img class="card-img-top" src="media/image/estate-search/room4.jpg"
+                                        alt="Card image cap">
+                                    <div class="price">
+                                        <p>20,000 ليره</p>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">فيلا السلام , 4 سرير و 5 حمام و 1 جراج</h5>
+                                    <p class="card-text">حى النخيل , شارع البحر , طرابلس</p>
+                                    <hr>
+                                    <div class="services">
+                                        <img src="media/image/estate-search/bed.svg" alt="">
+                                        <p>4 سرير</p>
+                                    </div>
+                                    <div class="services">
+                                        <img src="media/image/estate-search/bath.svg" alt="">
+                                        <p>5 حمام</p>
+                                    </div>
+                                    <div class="services">
+                                        <img src="media/image/estate-search/garage.svg" alt="">
+                                        <p>1 جراج</p>
+                                    </div>
+                                    <div class="services">
+                                        <img src="media/image/estate-search/space.svg" alt="">
+                                        <p>100 م2</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ===== room card ===== -->
+                    </div>
                 </div>
             </div>
         </div>
@@ -333,6 +529,42 @@
                 }
             }
             document.querySelector('#one').value = this.value
+        };
+    </script>
+
+    <script>
+        var lowerSlider = document.querySelector('#lowerfil');
+        var upperSlider = document.querySelector('#upperfil');
+
+        document.querySelector('#four').value = upperSlider.value;
+        document.querySelector('#three').value = lowerSlider.value;
+
+        var lowerVal = parseInt(lowerSlider.value);
+        var upperVal = parseInt(upperSlider.value);
+
+        upperSlider.oninput = function () {
+            lowerVal = parseInt(lowerSlider.value);
+            upperVal = parseInt(upperSlider.value);
+
+            if (upperVal < lowerVal + 4) {
+                lowerSlider.value = upperVal - 4;
+                if (lowerVal == lowerSlider.min) {
+                    upperSlider.value = 4;
+                }
+            }
+            document.querySelector('#four').value = this.value
+        };
+
+        lowerSlider.oninput = function () {
+            lowerVal = parseInt(lowerSlider.value);
+            upperVal = parseInt(upperSlider.value);
+            if (lowerVal > upperVal - 4) {
+                upperSlider.value = lowerVal + 4;
+                if (upperVal == upperSlider.max) {
+                    lowerSlider.value = parseInt(upperSlider.max) - 4;
+                }
+            }
+            document.querySelector('#three').value = this.value
         };
     </script>
 
